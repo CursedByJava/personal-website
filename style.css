@@ -7,12 +7,13 @@ body {
     font-size: 20px;
     background-image: url(images/background.jpg);
     background-size: cover;
+    position: static;
     
 
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     left: 170px;
     bottom: 742px;
 }
@@ -92,7 +93,7 @@ body {
     position: absolute;
     width: 800px;
     height: 12vh;
-    top: 500px;
+    top: 400px;
     left: 100px;
     right: 100px;
 }
