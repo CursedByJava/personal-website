@@ -1,6 +1,4 @@
-
-
-body {
+ body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
@@ -50,28 +48,27 @@ body {
 .links a:link {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px;
 }
 
 .links a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px;
 }
 
 .links a:hover {
-    color: red;
-    text-decoration: none;
-    font-size: 17px;
+    text-decoration: underline;
+    font-size: 18px;
     padding: 10px;
 }
 
 .links a:active {
     color: red;
     text-decoration: none;
-    font-size: 20px;
+    font-size:18px;
     padding: 10px;
 }
 
@@ -84,19 +81,23 @@ body {
     position: absolute;
 }
 
-.underPhoto {
+.photo {
     justify-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
     position: absolute;
     width: 800px;
     height: 12vh;
-    top: 400px;
+    top: 140px;
     left: 100px;
     right: 100px;
+    color: white;
 }
 
-
-
+.picture {
+    justify-items: center;
+    position: absolute;
+    top: 100px;
+    flex-direction: row;
+}
